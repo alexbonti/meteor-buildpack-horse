@@ -85,8 +85,12 @@ mkdir -p "$COMPILE_DIR" "$COMPILE_DIR/bin" "$COMPILE_DIR/lib"
 # https://devcenter.heroku.com/articles/dyno-metadata
 # This logic is duplicated in extra/root_url.sh so that it repeats on dyno
 # restart.
+
+ROOT_URL==\${ROOT_URL:-`ruby -e 'require "json"; puts "http://#{JSON.parse(ENV["VCAP_APPLICATION"])["application_uris"][0]}"'`}
+echo "The root url is"
+echo $ROOT_URL
 if [ -z "$ROOT_URL" ] && [ -n "$HEROKU_APP_NAME" ] ; then
-  export ROOT_URL="https://${HEROKU_APP_NAME}.herokuapp.com"
+  export ROOT_URL=\${ROOT_URL:-`ruby -e 'require "json"; puts "http://#{JSON.parse(ENV["VCAP_APPLICATION"])["application_uris"][0]}"'`}
 fi
 if [ -z "$ROOT_URL" ] ; then
   echo "FATAL: ROOT_URL is not defined."
