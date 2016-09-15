@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="852b98cd-1142-4fa3-a816-e5fea9ebf9bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/mongo_url.sh" afterPath="$PROJECT_DIR$/extra/mongo_url.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/root_url.sh" afterPath="$PROJECT_DIR$/extra/root_url.sh" />
     </list>
     <ignored path="meteor-buildpack-horse.iws" />
@@ -54,8 +53,8 @@
       <file leaf-file-name="root_url.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/extra/root_url.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -258,12 +257,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473895062708</updated>
-      <workItem from="1473895064032" duration="2148000" />
+      <workItem from="1473895064032" duration="2595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2148000" />
+    <option name="totallyTimeSpent" value="2595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="291" y="58" width="1200" height="1123" extended-state="0" />
@@ -327,8 +326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/extra/root_url.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
